@@ -72,7 +72,7 @@ WSGI_APPLICATION = 'escueladojo.wsgi.application'
 DATABASES = {
    'default': {
        'ENGINE': 'django.db.backends.mysql', # usando MySQL como motor de base de datos
-       'NAME': 'ESCUELA_DOJO', # nombre de la base de datos
+       'NAME': 'escuela_dojo', # nombre de la base de datos
        'USER': 'root', # usuario de la base de datos
        'PASSWORD': '', 
        'HOST': '127.0.0.1',  # usar IP en lugar de localhost
